@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+}
+
+.head{
+    color: rgb(104, 165, 13);
+    background-color: rgb(241, 238, 238);
+    position: relative;
+    z-index: 1;
+    text-align: right;
+    height: 100px;
+    width: 100%;
+}.head h1{
+    margin-right: 250px;
+ 
+   position: relative;
+    top:25px;
+}
+.cont{
+    text-align: left;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.item img{
+    width: 13px;
+    height: 13px;
+    margin-right: 3px;
+}
+.cont ul li{
+    list-style: none;
+    padding: 3px;
+}
+.cont button{
+    background-color: rgb(244, 144, 45);
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap:40px
+}
+.item{
+    max-width: 360px;
+}
+#mar li{
+    margin: 8px;
+}
+.bgg{
+    background-color: rgb(235, 231, 231);
+    margin-top: 2px;
+    height: 50px;
+    width: 400px;
+   display: flex;
+   padding: 12px;
+}
+.bgg img{
+    background-color: orange;
+    border-radius: 50%;
+    position: relative;
+    top:5px;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.team img{
+ width: 270px;
+ height: 270px;
+}
+.tt{
+    width: 350px;
+    height: 330px;
+    border: 8px solid rgb(237, 235, 235);
+    
+}
+.mem span{
+    font-size: 17px;
+}
+
+nav ul{
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    gap: 50px;
+    height: 90px;
+    margin-left: 450px;
+}
+.nav img{
+    height: 120px;
+    margin-top: 10px;
+    position: absolute;
+    top:0;
+    left:300px;
+    z-index: 2;
+}
+.nav a{
+    text-decoration: none;
+    color:rgb(51, 48, 48);
+}
+
+footer{
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+.foot{
+    background-color: rgb(35, 34, 34);
+    display: flex;
+    padding:20px;
+    height: 90px;
+}
+#media{
+    position: relative;
+    left:500px;
+}
+.fcon{
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    gap:100px
+}
+.fcon a{
+    color: white;
+    text-decoration: none;
+}
+#very{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    height: 35px;
+    width: 35px;
+    background-color: orange;
+    display: none;
+}
+#very:hover{
+    background-color: rgb(227, 153, 16);
+}
+#menu{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top:50px;
+    left:950px;
+    display: none;
+}
+@media (max-width:768px){
+    .nav{
+        flex-wrap: wrap;
+    }
+    .nav li{
+        margin: 10px;
+        position: relative;
+        z-index: 100;
+        background-color:rgb(243, 236, 236);
+        width: 100px;
+        padding: 10px;
+        margin-left: 750px;
+    }
+    #navlist {
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+    footer{
+        width: 1100px;
+    }
+    .fcon{
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    #media{
+        left:100px;
+    }
+    .cont{
+        width: 900px;
+        margin-top: 200px;
+    }
+    .head{
+        width:1100px;
+        position: relative;
+        top:200px;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .item{
+        max-width: 700px;
+    }
+    .team{
+        width: 800px;
+    }
+    .nav img{
+        height: 250px;
+        width: 400px;
+        margin-top: 30px;
+    
+    }
+}

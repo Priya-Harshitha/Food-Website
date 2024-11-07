@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <div id="menu" onclick="toggleMenu()"><img src="menu.svg"  ></div>
+    <nav>
+       
+        <ul>
+            <div class="nav">
+             <img src="logs.png">
+             <div id="navlist">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="services.html" style="color: orange;">SERVICES</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="pricicng.html">PRICING</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </div>
+        </div>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="head"><h1>Services</h1></div>
+            <div class="cont">
+            <div class="part">
+            <div class="item">
+            <img class="ser" src="service1.jpg"><br>
+            <h1>Fruits Punch</h1><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolores quae porro consequatur aliquam, incidunt eius magni
+            provient, doloribus omnius temporibus preferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur
+            possiumus</p>
+            <br>
+        </div>
+        <div class="item">
+             <img class="ser" src="service2.jpg"><br>
+            <h1>Vegi Mallon</h1><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolores quae porro consequatur aliquam, incidunt eius magni
+            provient, doloribus omnius temporibus preferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur
+            possiumus</p>
+            <br>
+        </div>
+        <div class="item">
+             <img class="ser" src="service3.jpg"><br>
+            <h1>Burger Patty</h1><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolores quae porro consequatur aliquam, incidunt eius magni
+            provient, doloribus omnius temporibus preferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur
+            possiumus</p>
+        </div>
+            </div>
+            <div class="boot">
+            <div class="bootcont">
+            <img src="bell.jpg" class="icon">
+            <p><h2>Awesome Design</h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolores quae porro 
+            consequatur aliquam, incidunt </p>
+            </div>
+            <div class="bootcont">
+            <img src="projector.png" class="icon">
+            <p><h2>FontAwesome</h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolores quae porro 
+            consequatur aliquam, incidunt </p>
+            </div>
+            <div class="bootcont">
+            <img src="bulb.jpg" class="icon">
+            <p><h2>Bootstrap</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolores quae porro 
+            consequatur aliquam, incidunt </p>
+            </div>
+            <div class="bootcont">
+            <img src="html.png" class="icon">
+            <p><h2>SEO Ready</h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolores quae porro 
+            consequatur aliquam, incidunt </p>
+            </div>
+            <div class="bootcont">
+            <img src="diag.jpg" class="icon">
+            <p><h2>Fully Responsive</h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolores quae porro 
+            consequatur aliquam, incidunt </p>
+            </div>
+            <div class="bootcont">
+            <img src="css.png                                                                                                                                                                                                                                           " class="icon">
+            <p><h2> CSS3 + HTML5 </h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolores quae porro 
+            consequatur aliquam, incidunt </p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <img src="very.svg" id="very">
+    
+    <footer>
+        <div class="fcon">
+            <div>
+                <p>
+                <h3>Our Contact</h3><br>
+                <p><strong>Bistro company Inc</strong><br>
+                Jc Main Road,Near Silnile tower<br>
+            Pin-21542 NewYork US.<br><br>
+            (123)456-789 - 1255-12584<br>
+        email@dominname.com</p><br>
+    </div>
+    <div>
+                <h3>Quick Links</h3><br>
+                <p>
+                    <a href="">Latest Events</a><br>
+                    <a href="">Terms and conditions</a><br>
+                    <a href="">Privacy policy</a><br>
+                    <a href="">Career</a><br>
+                    <a href="">Contact us</a>
+                </p><br>
+            </div>
+            <div style="width: 300px;">
+                <h3>Latest Posts</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                Pellentesque et pulvinar enim. Quisque at tempor ligula<br>
+            Natus error sit voluptatem accusantium doloremque</p><br>
+        </div>
+        <div style="width: 300px;">
+            <h3>Recent News</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                Pellentesque et pulvinar enim. Quisque at tempor ligula<br>
+            Natus error sit voluptatem accusantium doloremque</p>
+            </p>
+        </div>
+        </div>
+
+        <div class="foot">
+            <p style="margin-left: 200px;margin-top: 10px;">© Bistro Restaurant 2024 All right reserved.</p>
+            <img src="smedia.png" id="media">
+        </div>
+    </footer>
+
+    <script>
+        const very=document.getElementById('very');
+window.onscroll=function(){
+    scrollFunction()
+};
+function scrollFunction(){
+    const scrollHeight=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+    if((document.body.scrollTop>scrollHeight*0.3)||(document.documentElement.scrollTop>scrollHeight*0.3)){
+        very.style.display="block";
+    }
+    else{
+        very.style.display="none";
+    }
+}
+
+very.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:"smooth"});
+});
+
+
+        function toggleMenu(){
+    const navMenu = document.getElementById('navlist');
+    navMenu.style.display="block";
+}
+    </script>
+    
+</body>
+</html>
